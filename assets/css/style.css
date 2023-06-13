@@ -321,6 +321,26 @@ ul{
     list-style:none;
 }
 
+/* #test {
+    position: relative;
+} */
+
+/* home */
+.client_box {
+    width: 1248px;
+    height: 296px;
+    background-color: #183c73;
+    position: absolute;
+    margin: 0 auto;
+    left: 100px;
+    bottom: -100px;
+    overflow-y: visible;
+}
+
+.client_box > .row * {
+    /* margin: 0 auto; */
+}
+
 /*all overlay*/
 .overlay{
     background-color: rgba(51,51,51,0.50);
@@ -330,6 +350,11 @@ ul{
     width:100%;
     height: 100%; 
     background-repeat: no-repeat;
+}
+
+.home {
+    background-image: url('/assets/images/background/home.png');
+    background-size: cover;
 }
 
 .company_about {
@@ -370,14 +395,31 @@ ul{
 
 /* business */
 
+.fuction_title {
+    color: #183c73;
+    font-weight: 800;
+}
+
+.svg_icon {
+    margin-bottom: 20px;
+    width: 51px;
+    height: 42px;
+}
+
 .dmr {
     background-image: url('/assets/images/background/dmr.png');
     background-size: cover;
 }
 
+.mc_pt2 {
+    background-image: url('/assets/images/resorce/home/home_client.png');
+    background-size: cover;
+}
+
 .mc_ptt {
     background-image: url('/assets/images/background/mc_ptt.png');
-    background-size: cover;
+    background-size: auto;
+    position: relative;
 }
 
 .body_cam {
