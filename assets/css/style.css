@@ -332,15 +332,22 @@ ul{
 }
 
 .client_box {
-    width: 1248px;
-    height: 296px;
+    width: 1200px;
+    height: 400px;
     background-color: #183c73;
-    position: absolute;
+    position: relative;
     margin: 0 auto;
     left: 100px;
     bottom: -100px;
-    overflow-y: visible;
+    overflow-y: visible; 
+    top: 28px;
+    left: 48px;
 }
+
+#feature.client_box {
+    display: flex;
+    justify-content: center;
+  }
 
 .quick_menu {
     width: 238px;
@@ -378,6 +385,8 @@ ul{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 .supprot_icon {
@@ -598,6 +607,11 @@ socail icon
 /*
 Extra height css
 */
+
+.m-auto {
+    margin: 0 auto;
+}
+
 .m-0{
     margin:0 !important;
 }
@@ -1060,8 +1074,8 @@ Nav Menu style
 }
 
 .navbar-nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .attr-nav > ul > li > a {
     padding: 30px 15px;
@@ -1682,9 +1696,10 @@ Footer Section style
     transform: scale(1.1);
 }
 
-.team_item p {
+/* .team_item p {
     margin-left: 15px;
-}
+} */
+
 .team_img{
     position: relative;
     overflow: hidden;

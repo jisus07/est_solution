@@ -1589,6 +1589,20 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+@media (max-width: 768px) {
+  .tttt {
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .res_icon {
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
