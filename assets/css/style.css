@@ -330,7 +330,7 @@ ul{
     display: flex;
     justify-content: center;
 }
-
+/* 
 .client_box {
     width: 1200px;
     height: 400px;
@@ -342,9 +342,12 @@ ul{
     overflow-y: visible; 
     top: 28px;
     left: 48px;
-}
+} */
 
-#feature.client_box {
+.client_box {
+    width: 100%;
+    height: 400px;
+    background-color: #183c73;
     display: flex;
     justify-content: center;
   }
