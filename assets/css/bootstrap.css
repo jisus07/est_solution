@@ -1641,6 +1641,13 @@ pre code {
   display: none;
 }
 
+#business_item {
+  margin-top: 60px;
+}
+
+#tetra_main_function {
+}
+
 @media (max-width: 768px) {
   .tttt {
     margin-top: 10px;
@@ -1703,6 +1710,10 @@ pre code {
   #mobile_map {
     display: block;
   }
+
+  #business_item {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1716,6 +1727,12 @@ pre code {
   }
 }
 @media (min-width: 1200px) {
+  #tetra_main_function {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
   .container {
     width: 1200px;
   }
@@ -4655,9 +4672,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
-  /* #business {
-    padding-top: 50px;
-  } */
+  #business {
+    padding-top: 30px;
+  }
+
+  #business_btn {
+    display: flex;
+    justify-content: center;
+  }
 
   .navbar-form .form-group {
     margin-bottom: 5px;
@@ -6465,9 +6487,14 @@ button.close {
     width: 300px;
   }
 }
+
 @media (min-width: 992px) {
   .modal-lg {
     width: 900px;
+  }
+
+  #business {
+    padding-top: 80px;
   }
 }
 .tooltip {
