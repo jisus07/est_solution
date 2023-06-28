@@ -425,6 +425,7 @@ ul {
   padding: 20px 20px;
 }
 
+
 .supprot_icon {
   padding-left: 0px;
 }
@@ -447,21 +448,25 @@ ul {
 .home_pg {
   background-image: url("/assets/images/background/home.png");
   background-size: cover;
+  background-position: center;
 }
 
 .company_about {
   background-image: url("/assets/images/background/company.png");
   background-size: cover;
+  background-position: center;
 }
 
 .history {
   background-image: url("/assets/images/background/company.png");
   background-size: cover;
+  background-position: center;
 }
 
 .solution {
   background-image: url("/assets/images/background/solution.png");
   background-size: cover;
+  background-position: center;
 }
 
 .client {
@@ -472,11 +477,13 @@ ul {
 .contact {
   background-image: url("/assets/images/background/contact.png");
   background-size: cover;
+  background-position: center;
 }
 
 .tetra {
   background-image: url("/assets/images/background/tetra.png");
   background-size: cover;
+  background-position: center;
 }
 
 .main_counter {
@@ -501,30 +508,37 @@ ul {
 .dmr {
   background-image: url("/assets/images/background/dmr.png");
   background-size: cover;
+  background-position: center;
 }
 
 .mc_pt2 {
   background-image: url("/assets/images/background/home_client.png");
   background-size: cover;
+  background-position: center;
 }
 
 .mc_ptt {
   background-image: url("/assets/images/background/mc_ptt.png");
   background-size: cover;
+  background-position: center;
 }
 
 .home {
   background-image: url("/assets/images/background/home.png");
   background-size: cover;
+  background-position: center;
 }
 
 .ip_ptt {
   background-image: url("/assets/images/background/ip_ptt.png");
   background-size: cover;
+  background-position: center;
 }
+
 .body_cam {
   background-image: url("/assets/images/background/bodycam.png");
   background-size: cover;
+  background-position: center;
 }
 
 .no-padding {
@@ -759,6 +773,10 @@ Extra height css
 
 .m-bottom-40 {
   margin-bottom: 40px;
+}
+
+.m-bottom-50 {
+  margin-bottom: 50px;
 }
 
 .m-bottom-60 {
