@@ -56,24 +56,22 @@
                 <script>loadHTML("nav.html");</script>
             </nav>
 
+                  <!--Home Sections-->
 
-            <section id="hello" class="bg-mega">
-                <div class="overlay home_pg"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="main_home text-center">
-                            <div class="home_text">
-                                <h1 id= "mobile_home" class="text-white text-uppercase">새로운 미래를 <br>고객과 함께합니다.</h1>
-                                <h1 id= "desktop_home" class="text-white text-uppercase">새로운 미래를 고객과 함께합니다.</h1>
-                                <div class="separator"></div>
-
-                            </div>
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-                </section> <!--End off Home Sections-->
-
-
+      <section id="hello" class="home bg-mega">
+        <div class="overlay home_pg"></div>
+        <div class="container">
+          <div class="row">
+            <div class="main_home text-center">
+                <h1 id= "mobile_home" class="text-white text-uppercase">새로운 미래를 <br>고객과 함께합니다.</h1>
+                <h1 id= "desktop_home" class="text-white text-uppercase">새로운 미래를 고객과 함께합니다.</h1> 
+            </div>
+          </div>
+          <!--End off row-->
+        </div>
+        <!--End off container -->
+      </section>
+      <!--End off Home Sections-->
 
                         <section>
                             <div class="container" class="content-center">
@@ -100,15 +98,14 @@
                         </section><!-- End off portfolio section -->
             
             
-            
-            
+        
                         <!--Testimonial Section-->
-                        <section id="testimonial" class="testimonial fix roomy-50">
+                        <section class="testimonial fix roomy-50">
                             <div class="container">
                                 <div class="row">
-                                    <div class="main_testimonial text-center">
+                                    <div id="testimonial" class="main_testimonial text-center">
             
-                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                        <div id="carousel-example-generic" class="carousel" data-ride="carousel">
                                             <div class="carousel-inner" role="listbox">
 
                                                 <div class="item active testimonial_item">
@@ -324,17 +321,26 @@
                         </div><!--End off container -->
 
                         <div class="col-md-3 client_box feature">
-                            <div class="client_image">
-                                <div>
+                            <div id= "desktop_client" class="client_image col-md-12">
+                                    <img src="assets/images/test-img.jpg" alt="" />
+                                    <img src="assets/images/test-img.jpg" alt="" />
+                                    <img src="assets/images/test-img.jpg" alt="" />
+                                    <img src="assets/images/test-img.jpg" alt="" />
+                                    <img src="assets/images/test-img.jpg" alt="" />
+                            </div>
+
+                            <div id= "mobile_client" class="client_image col-md-12">
+                                <div class="abc">
                                     <img src="assets/images/test-img.jpg" alt="" />
                                     <img src="assets/images/test-img.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div class="client_second">
                                     <img src="assets/images/test-img.jpg" alt="" />
                                     <img src="assets/images/test-img.jpg" alt="" />
                                     <img src="assets/images/test-img.jpg" alt="" />
                                 </div>
                             </div>
+
                         </div>
                     </section> <!--End off Home Sections-->
                     </div>

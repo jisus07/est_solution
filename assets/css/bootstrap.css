@@ -1608,6 +1608,14 @@ pre code {
   display: none;
 }
 
+#desktop_com_about_content {
+  display: block;
+}
+
+#mobile_com_about_content {
+  display: none;
+}
+
 #desktop_footer {
   display: block;
 }
@@ -1645,10 +1653,79 @@ pre code {
   margin-top: 60px;
 }
 
-#tetra_main_function {
+#desktop_carousel {
+  display: none;
+}
+
+#mobile_carousel {
+  display: none;
+}
+
+#mobile_client {
+  display: none;
+}
+
+#desktop_client {
+  display: flex;
+}
+
+.abc {
+  display: flex;
+  margin-bottom: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.client_second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 677px) {
+  #mobile_client {
+    display: block;
+  }
+
+  #desktop_client {
+    display: none;
+  }
+
+  #desktop_com_about_content {
+    display: none;
+  }
+
+  #mobile_com_about_content {
+    display: block;
+  }
+
+  #tablet_com_about_content {
+    display: none;
+  }
+
+  #desktop_comapny_about {
+    display: none;
+  }
+
+  #mobile_company_about {
+    display: block;
+  }
+
+  #tablet_company_about {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
+  #desktop_carousel {
+    display: none;
+  }
+
+  #mobile_carousel {
+    display: block;
+  }
+
   .tttt {
     margin-top: 10px;
   }
@@ -1674,14 +1751,6 @@ pre code {
   }
 
   #mobile_support {
-    display: block;
-  }
-
-  #desktop_comapny_about {
-    display: none;
-  }
-
-  #mobile_company_about {
     display: block;
   }
 
@@ -1719,6 +1788,34 @@ pre code {
 @media (min-width: 768px) {
   .container {
     width: 750px;
+  }
+
+  #tablet_com_about_content {
+    display: block;
+  }
+
+  #desktop_com_about_content {
+    display: none;
+  }
+
+  #mobile_com_about_content {
+    display: none;
+  }
+
+  #desktop_comapny_about {
+    display: none;
+  }
+
+  #mobile_company_about {
+    display: none;
+  }
+
+  #tablet_company_about {
+    display: block;
+  }
+
+  #company_about_img {
+    margin-top: 40px;
   }
 }
 @media (min-width: 992px) {
@@ -6764,7 +6861,7 @@ button.close {
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
-@media all and (transform-3d), (-webkit-transform-3d) {
+@media (min-width: 1200px) and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform 0.6s ease-in-out;
     -o-transition: -o-transform 0.6s ease-in-out;
