@@ -1654,7 +1654,7 @@ pre code {
 }
 
 #desktop_carousel {
-  display: none;
+  display: block;
 }
 
 #mobile_carousel {
