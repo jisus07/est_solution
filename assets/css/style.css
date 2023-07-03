@@ -1575,6 +1575,10 @@ Models Section style
   color: #000;
 }
 
+.m_font {
+  font-size: 17px;
+}
+
 /*
 Contact Section style
 =====================*/

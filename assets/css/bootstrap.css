@@ -1669,6 +1669,30 @@ pre code {
   display: flex;
 }
 
+#desktop_business_mcptt {
+  display: block;
+}
+
+#mobile_business_mcptt {
+  display: none;
+}
+
+#desktop_b_mcptt_title {
+  display: block;
+}
+
+#mobile_b_mcptt_title {
+  display: none;
+}
+
+#desktop_business_tetra {
+  display: block;
+}
+
+#mobile_business_tetra {
+  display: none;
+}
+
 .abc {
   display: flex;
   margin-bottom: 40px;
@@ -1681,6 +1705,25 @@ pre code {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+#desktop_business_ipptt {
+  display: none;
+}
+
+#mobile_business_ipptt {
+  display: block;
+}
+
+#mobile_business_bwc {
+  display: none;
+}
+
+#desktop_business_dmr {
+}
+
+#mobile_business_dmr {
+  display: none;
 }
 
 @media (max-width: 677px) {
@@ -1717,6 +1760,7 @@ pre code {
   }
 }
 
+/* 모바일용 */
 @media (max-width: 768px) {
   #desktop_carousel {
     display: none;
@@ -1761,6 +1805,73 @@ pre code {
   #mobile_mcptt_title {
     display: block;
   }
+
+  #desktop_mcptt {
+    display: block;
+  }
+
+  #mobile_mcptt {
+    display: none;
+  }
+
+  /* solution */
+  #desktop_solution {
+    display: none;
+  }
+
+  #mobile_solution {
+    display: block;
+    white-space: nowrap;
+  }
+
+  /* business */
+  #desktop_business_mcptt {
+    display: none;
+  }
+
+  #mobile_business_mcptt {
+    display: block;
+  }
+
+  #desktop_b_mcptt_title {
+    display: none;
+  }
+
+  #mobile_b_mcptt_title {
+    display: block;
+  }
+
+  #desktop_business_ipptt {
+    display: none;
+  }
+
+  #mobile_business_ipptt {
+    display: block;
+  }
+
+  #desktop_business_bwc {
+    display: none;
+  }
+
+  #mobile_business_bwc {
+    display: block;
+  }
+
+  #desktop_business_dmr {
+    display: none;
+  }
+
+  #mobile_business_dmr {
+    display: block;
+  }
+
+  #desktop_mcptt {
+    display: none;
+  }
+
+  #mobile_mcptt {
+    display: block;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1785,6 +1896,7 @@ pre code {
   }
 }
 
+/* 태블릿용 */
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1818,6 +1930,7 @@ pre code {
     margin-top: 40px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
