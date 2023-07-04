@@ -4,6 +4,20 @@ Author URI: http://www.xpeedstudio.com
 */
 
 /* Portrait tablets and medium desktops */
+
+/* mc-ptt */
+#desktop_mcptt {
+  display: none;
+}
+
+#mobile_mcptt {
+  display: block;
+}
+
+#tablet_mcptt {
+  display: none;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
     font-size: 1rem;
@@ -130,6 +144,94 @@ Author URI: http://www.xpeedstudio.com
   .testimonial_slid .slick-arrow {
     display: none;
   }
+
+  #desktop_mcptt {
+    display: none;
+  }
+
+  #mobile_mcptt {
+    display: block;
+    text-align: center;
+  }
+
+  #tablet_mcptt {
+    display: none;
+    text-align: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .tablet {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (min-width: 480px) {
+  .wid {
+    width: 50%;
+  }
+
+  #desktop_mcptt {
+    display: none;
+  }
+
+  #mobile_mcptt {
+    display: none;
+  }
+
+  #tablet_mcptt {
+    display: block;
+    text-align: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* desktop */
+@media (min-width: 993px) {
+  #desktop_mcptt {
+    display: block;
+  }
+
+  #mobile_mcptt {
+    display: none;
+    text-align: center;
+  }
+
+  #tablet_mcptt {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
@@ -141,5 +243,15 @@ Author URI: http://www.xpeedstudio.com
   }
   .btn.btnxs {
     padding: 2.01rem 1.5rem;
+  }
+}
+
+@media (max-width: 987px) {
+  .sm-m-botoom-50 {
+    margin-bottom: 50px;
+  }
+  #business_btn {
+    display: flex;
+    justify-content: center;
   }
 }

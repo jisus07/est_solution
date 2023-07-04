@@ -1600,12 +1600,9 @@ pre code {
   display: none;
 }
 
-#desktop_comapny_about {
-  display: block;
-}
-
 #mobile_company_about {
   display: none;
+  text-align: center;
 }
 
 #desktop_com_about_content {
@@ -1806,11 +1803,16 @@ pre code {
     display: block;
   }
 
+  /* mc-ptt */
   #desktop_mcptt {
-    display: block;
+    display: none;
   }
 
   #mobile_mcptt {
+    display: block;
+  }
+
+  #tablet_mcptt {
     display: none;
   }
 
@@ -1924,6 +1926,7 @@ pre code {
 
   #tablet_company_about {
     display: block;
+    text-align: center;
   }
 
   #company_about_img {
@@ -4883,12 +4886,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (max-width: 767px) {
   #business {
-    padding-top: 30px;
-  }
-
-  #business_btn {
-    display: flex;
-    justify-content: center;
+    padding-top: 20px;
   }
 
   .navbar-form .form-group {
