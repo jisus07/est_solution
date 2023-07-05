@@ -136,7 +136,7 @@ Author URI: http://www.xpeedstudio.com
   }
 }
 
-/* Landscape phones and smaller */
+/* mobile */
 @media (max-width: 479px) {
   html {
     font-size: 85%;
@@ -169,6 +169,10 @@ Author URI: http://www.xpeedstudio.com
   }
 
   .tablet {
+    display: none;
+  }
+
+  .desktop_l {
     display: none;
   }
 }
@@ -204,6 +208,10 @@ Author URI: http://www.xpeedstudio.com
     display: block;
     text-align: center;
   }
+
+  .desktop_l {
+    display: none;
+  }
 }
 
 /* desktop */
@@ -232,6 +240,9 @@ Author URI: http://www.xpeedstudio.com
   .tablet {
     display: none;
   }
+  .desktop_l {
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
@@ -254,4 +265,14 @@ Author URI: http://www.xpeedstudio.com
     display: flex;
     justify-content: center;
   }
+}
+
+@media (min-width: 1440px) {
+  .desktop_l {
+    display: block;
+  }
+}
+
+.desktop_l {
+  display: none;
 }

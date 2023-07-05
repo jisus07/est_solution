@@ -1816,16 +1816,6 @@ pre code {
     display: none;
   }
 
-  /* solution */
-  #desktop_solution {
-    display: none;
-  }
-
-  #mobile_solution {
-    display: block;
-    white-space: nowrap;
-  }
-
   /* business */
   #desktop_business_mcptt {
     display: none;
