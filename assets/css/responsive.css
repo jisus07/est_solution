@@ -18,6 +18,10 @@ Author URI: http://www.xpeedstudio.com
   display: none;
 }
 
+.qwer {
+  font-size: 16px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
     font-size: 1rem;
@@ -98,7 +102,6 @@ Author URI: http://www.xpeedstudio.com
     font-size: 2rem;
   }
   p {
-    font-size: 90%;
     line-height: 2rem;
   }
   .xs-pull-none {
@@ -154,18 +157,12 @@ Author URI: http://www.xpeedstudio.com
     text-align: center;
   }
 
-  #tablet_mcptt {
-    display: none;
-    text-align: center;
-  }
-
   .desktop {
     display: none;
   }
 
   .mobile {
     display: block;
-    text-align: center;
   }
 
   .tablet {
@@ -205,12 +202,14 @@ Author URI: http://www.xpeedstudio.com
   }
 
   .tablet {
-    display: block;
-    text-align: center;
+    display: block;    
   }
 
   .desktop_l {
     display: none;
+  }
+
+  .sm-text {
   }
 }
 
@@ -267,12 +266,20 @@ Author URI: http://www.xpeedstudio.com
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
   .desktop_l {
     display: block;
   }
-}
 
-.desktop_l {
-  display: none;
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
 }

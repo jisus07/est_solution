@@ -1411,10 +1411,12 @@ service section style
 
 .sop {
   background-image: url("/assets/images/resorce/image43.png");
+  margin-left: 10px;
 }
 
 .wbds {
   background-image: url("/assets/images/resorce/image44.png");
+  margin-left: 10px;
 }
 
 .smdm {
@@ -1423,6 +1425,10 @@ service section style
 
 .mrap {
   background-image: url("/assets/images/resorce/image45.png");
+}
+
+.fr {
+  float: right
 }
 
 .service_items .about-content {

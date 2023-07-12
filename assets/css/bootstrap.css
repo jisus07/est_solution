@@ -1723,6 +1723,13 @@ pre code {
   display: none;
 }
 
+.service-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 @media (max-width: 677px) {
   #mobile_client {
     display: block;
@@ -1759,6 +1766,10 @@ pre code {
 
 /* 모바일용 */
 @media (max-width: 768px) {
+  .fr {
+    float: right;
+  }
+
   #desktop_carousel {
     display: none;
   }
@@ -1929,7 +1940,7 @@ pre code {
     width: 970px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   #tetra_main_function {
     display: flex;
     width: 100%;
