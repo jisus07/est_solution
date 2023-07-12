@@ -1421,14 +1421,16 @@ service section style
 
 .smdm {
   background-image: url("/assets/images/resorce/image46.png");
+  margin-right: 10px;
 }
 
 .mrap {
   background-image: url("/assets/images/resorce/image45.png");
+  margin-right: 10px;
 }
 
 .fr {
-  float: right
+  float: right;
 }
 
 .service_items .about-content {
