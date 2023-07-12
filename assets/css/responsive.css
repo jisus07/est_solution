@@ -90,6 +90,10 @@ Author URI: http://www.xpeedstudio.com
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
+  .t-left {
+    text-align: left;
+  }
+
   .main_home {
     overflow: hidden;
     padding-top: 238px;
@@ -202,7 +206,7 @@ Author URI: http://www.xpeedstudio.com
   }
 
   .tablet {
-    display: block;    
+    display: block;
   }
 
   .desktop_l {
